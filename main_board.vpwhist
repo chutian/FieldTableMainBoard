@@ -1,0 +1,99 @@
+[Global]
+CurrentProject=main_board.vpj
+[ProjectDates]
+main_board.vpj=20130507032706000
+[ActiveConfig]
+main_board.vpj=Debug
+[TreeExpansion2]
+- main_board.vpj
+  + Libraries
+    + CMSIS
+      + CM3
+        + CoreSupport
+        + DeviceSupport
+          + ST
+            + STM32F10x
+              + startup
+                + arm
+                + gcc_ride7
+                + iar
+                + TrueSTUDIO
+      + Documentation
+    + STM32_USB-FS-Device_Driver
+      + inc
+      + src
+    + STM32F10x_StdPeriph_Driver
+      + inc
+      + src
+  - Project
+    - zhuzhe_flash_usart
+      - c
+      + EWARMv5
+        + settings
+        + STM32100B-EVAL
+          + Exe
+          + Obj
+      + HiTOP
+        + STM32100B-EVAL
+          + Settings
+        + STM3210B-EVAL
+          + Settings
+        + STM3210C-EVAL
+          + Settings
+        + STM3210E-EVAL
+          + Settings
+        + STM3210X-XL
+          + Settings
+      + MDK-ARM
+        + STM32F10X_XL
+  + Utilities
+    + STM32_EVAL
+      + Common
+      + STM32100B_EVAL
+      + STM3210B_EVAL
+      + STM3210C_EVAL
+      + STM3210E_EVAL
+scroll:0
+[State]
+SCREEN: 1366 768 125 125 1025 526 0 0 M 0 0 0 0 1339 578 0
+CWD: \work\sr_work\software\main_board_src
+BUFFER: BN="Project\zhuzhe_flash_usart\main.c"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=4720 TL=0 MLL=0 ASE=0 LNL=1 LCF=6 CAPS=0 E=0 ESBU2=1 CL="" SC="" SCE= SCU=
+VIEW: LN=.1552 CL=13 LE=0 CX=13 CY=28 WI=5 BI=11 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="Project\zhuzhe_flash_usart\c\main_adc.h"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=1180264 TL=0 MLL=0 ASE=0 LNL=1 LCF=6 CAPS=0 E=0 ESBU2=1 CL="" SC="" SCE= SCU=
+VIEW: LN=.86 CL=16 LE=0 CX=16 CY=7 WI=5 BI=15 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="Project\zhuzhe_flash_usart\c\main_adc.c"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=1049192 TL=0 MLL=0 ASE=0 LNL=1 LCF=6 CAPS=0 E=0 ESBU2=1 CL="" SC="" SCE= SCU=
+VIEW: LN=.628 CL=19 LE=0 CX=19 CY=15 WI=5 BI=9 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="Project\zhuzhe_flash_usart\c\sys.c"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=1180264 TL=0 MLL=0 ASE=0 LNL=1 LCF=6 CAPS=0 E=0 ESBU2=1 CL="" SC="" SCE= SCU=
+VIEW: LN=.2989 CL=55 LE=0 CX=55 CY=7 WI=5 BI=14 HT=0 HN=0 HF=0 HC=4
+WINDOW: 20 25 1037 404 -1 -1 N  WF=0 WT=2 ",,,"
+BUFFER: BN="Project\zhuzhe_flash_usart\main.c"
+VIEW: LN=.1552 CL=13 LE=0 CX=17 CY=28 WI=99 BI=11 HT=0 HN=0 HF=0 HC=4
+WINDOW: 60 75 1037 404 -1 -1 N  WF=0 WT=4 ",,,"
+BUFFER: BN="Project\zhuzhe_flash_usart\c\main_adc.h"
+VIEW: LN=.86 CL=16 LE=0 CX=20 CY=7 WI=213 BI=15 HT=0 HN=0 HF=0 HC=4
+WINDOW: 0 0 1037 404 -1 -1 N  WF=0 WT=1 ",,,"
+BUFFER: BN="Project\zhuzhe_flash_usart\c\main_adc.c"
+VIEW: LN=.628 CL=19 LE=0 CX=23 CY=15 WI=94 BI=9 HT=0 HN=0 HF=0 HC=4
+WINDOW: 40 50 1037 404 -1 -1 M  WF=0 WT=3 ",,,"
+BUFFER: BN="Project\zhuzhe_flash_usart\c\sys.c"
+VIEW: LN=.1488 CL=101 LE=0 CX=105 CY=24 WI=75 BI=14 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+..\..\dispctrl_unit\software\FieldTableKey\Project\zhuzhe_flash_usart\c\sys.c
+..\..\dispctrl_unit\software\FieldTableKey\Project\zhuzhe_flash_usart\stm32f10x_it_f.h
+..\..\dispctrl_unit\software\FieldTableKey\Project\zhuzhe_flash_usart\stm32f10x_it_f.c
+..\..\dispctrl_unit\software\FieldTableKey\Project\zhuzhe_flash_usart\c\stm32f10x_it.c
+..\..\dispctrl_unit\software\FieldTableKey\Project\zhuzhe_flash_usart\c\screen_uart.c
+Project\zhuzhe_flash_usart\main.c
+Project\zhuzhe_flash_usart\c\main_adc.h
+Project\zhuzhe_flash_usart\c\main_adc.c
+Project\zhuzhe_flash_usart\c\sys.c
+DEBUG: 0 0 0 0 3 0 gdb
+printf
+strcpy
+std::*
+DEBUG2: 0
+TBCLASS: 0 0
