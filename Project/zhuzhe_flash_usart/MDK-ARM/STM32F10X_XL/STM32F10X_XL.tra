@@ -38,7 +38,7 @@
 ### ADS-LD Output File: '.\STM32F10X_XL\STM32F10X_XL.axf'
 ### ADS-LD Command File: '.\STM32F10X_XL\STM32F10X_XL.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile '.\STM32F10X_XL\STM32F10X_XL.lnp', Handle=0x00000324
+### Creating CmdFile '.\STM32F10X_XL\STM32F10X_XL.lnp', Handle=0x0000071C
 ### Writing '.lnp' file
 ### ADS-LD Command file '.\STM32F10X_XL\STM32F10X_XL.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.

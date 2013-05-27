@@ -17,9 +17,10 @@ char blackwhite=0,key_stop=0,flag_set_light=0,flag_down=0;
 
 void sys_main(void)
 {		   
-   volatile uint16_t i,k=0;
+   volatile uint16_t i,k=0,last;
    char packet_buff[7],temp=0;
    char tempADC,tempADC1;
+    
    for(k=0;k<30;k++) for(i=0;i<60000;i++);
 //	  RCC_Configuration(); 
    screen_uart_init();
@@ -109,9 +110,14 @@ __disable_irq();
 // 				{
 // 					packet_buff[5]=0xff;
 // 				}
-		    packet_buff[2]=0;packet_buff[3]=BACKLIGHT;packet_buff[4]=(pre_adc[0]/256);packet_buff[5]=0xff;packet_buff[6]=0xa5;
+             if((pre_adc[0]>last+0x220)||(pre_adc[0]<last-0x220))
+             {
+                 last=pre_adc[0];
+                 packet_buff[2]=0;packet_buff[3]=BACKLIGHT;packet_buff[4]=(pre_adc[0]/256);packet_buff[5]=0xff;packet_buff[6]=0xa5;
  //           screen_uart_package(1,packet_buff);
             screen_uart_sends(1,packet_buff,7);
+             }
+            
 		   }
 __enable_irq();
        }
